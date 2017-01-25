@@ -1,6 +1,9 @@
 'use strict';
 
 const jwt = require('jsonwebtoken');
+if(!process.env.JWT_SECRET) {
+	console.log('Environment variable JWT_SECRET with the base64 encoded secret key is required');
+}
 const secret = new Buffer(process.env.JWT_SECRET, 'base64');
 const region = process.env.REGION || '*';
 const apiId = process.env.API_ID || '*';
