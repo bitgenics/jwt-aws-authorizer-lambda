@@ -1,0 +1,5 @@
+{
+  "authorizationToken": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2JpdGdlbmljcy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NTg4NTlkMjFkZTM1ZjUwZTljMTc5YzQ4IiwiYXVkIjoia3I1WmdORllGT0hYQ29Fa0tQcXVRcmdVQTNvZVJSalYiLCJleHAiOjE0ODU0MjkyMTksImlhdCI6MTQ4NTM5MzIxOX0.zRRSFzKvTqu01fZNBZwfeaUspgzf-hDqa8GbyE68s7s",
+  "methodArn": "arn:aws:execute-api:[region]:[account_id]:[restApiId]/[stage]/[method]/[resourcePath]",
+  "type": "TOKEN"
+}

@@ -8,7 +8,17 @@
   "license": "MIT",
   "files": ["index.js"],
   "scripts": {
-    "zip": "zip -r -9 -x=*.git* -x=*.DS_Store* linc-api-authoriser.zip ."
+    "start": "node index.js",
+    "dry-run": "node-lambda run",
+    "deploy": "node-lambda deploy --configFile deploy.env",
+    "setup": "node-lambda setup",
+    "package": "node-lambda package",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "zip -r -9 -x=*.git* -x=*.DS_Store* -x=.env -x=deploy.env -x=context.json -x=event.json linc-api-authoriser.zip ."
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.7.26",
+    "node-lambda": "^0.8.11"
   },
   "dependencies": {
     "jsonwebtoken": "^7.2.1"
