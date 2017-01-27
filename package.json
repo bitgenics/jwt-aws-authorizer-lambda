@@ -1,6 +1,6 @@
 {
   "name": "jwt-aws-authorizer-lambda",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Customer Authorizer for API Gateway to verify JWT token signed with a secret key, such as the Auth0 tokens.",
   "main": "index.js",
   "repository": "git@github.com:bitgenics/jwt-aws-authorizer-lambda.git",

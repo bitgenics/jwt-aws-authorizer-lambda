@@ -9,7 +9,7 @@ const region = process.env.REGION || '*';
 const apiId = process.env.API_ID || '*';
 const stageId = process.env.STAGE_ID || '*';
 const method = process.env.METHOD || '*';
-const path = process.env.PATH || '*';
+const path = process.env.URL_PATH || '*';
 
 const policy = {
 	Version: '2012-10-17',
